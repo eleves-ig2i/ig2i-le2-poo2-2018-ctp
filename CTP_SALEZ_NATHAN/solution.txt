@@ -1,0 +1,14 @@
+﻿Cout total = 3026.0
+
+Nombre d'emplacements utilisés : 3.0
+ 
+Emplacement : (6,0) -- nb colis total = 25
+	Commercant (12;5)
+
+	Commercant (5;2)
+ 
+Emplacement : (4,0) -- nb colis total = 20
+	Commercant (7;3)
+ 
+Emplacement : (9,0) -- nb colis total = 15
+	Commercant (8;5)

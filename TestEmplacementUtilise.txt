@@ -1,0 +1,16 @@
+EmplacementLivraison emplLivraison = new EmplacementLivraison(10, 10, 100, 20);
+EmplacementUtilise empl = new EmplacementUtilise(emplLivraison);
+boolean ajout = empl.ajouterCommercant(null); // return false
+System.out.println(ajout);
+Commercant comm1 = new Commercant(12, 5, 20);
+ajout = empl.ajouterCommercant(comm1); // return true
+System.out.println(ajout);
+Commercant comm2 = new Commercant(2, 2, 40);
+ajout = empl.ajouterCommercant(comm2); // return true
+System.out.println(ajout);
+Commercant comm3 = new Commercant(1, 24, 10);
+ajout = empl.ajouterCommercant(comm3); // return false --> trop loin
+System.out.println(ajout);
+Commercant comm4 = new Commercant(12, 7, 70);
+ajout = empl.ajouterCommercant(comm4); // return false --> trop de colis
+System.out.println(ajout);
