@@ -8,3 +8,4 @@ Ce repository contient les fichiers textes et le sujet du CTP donnés ainsi qu'u
     + Perte de temps (:
 * Pour la question 13, le code source donné ne permet pas de résoudre l'instance donné dans le fichier texte. Néanmoins, il fonctionne lorsqu'on l'adapte à l'instance implicitement évoqué à la question suivante.
 * Comme pour tous les autres CTP de POO, je vous conseille de le faire avant de regarder le code source ;)
+* IMPORTANT : on aurait pu utiliser les HashSet au lieu des LinkedList, pour les classes dont on a redéfini la méthode HashCode()
